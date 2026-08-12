@@ -1,3 +1,9 @@
+gcloud artifacts files download \
+    --project=PROJECT \
+    --location=LOCATION \
+    --repository=REPOSITORY \
+    --destination=DESTINATION \
+    FILE
 uv venv .venv
 source .venv/bin/activate
 uv pip install harbor
