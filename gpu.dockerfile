@@ -1,4 +1,4 @@
-FROM ghcr.io/kubuverse/rstats:${BASE_TAG}
+FROM ghcr.io/web4application/kubuverse:${BASE_TAG}
 ARG BASE_TAG=staging
 FROM nvidia/cuda:11.7.1-cudnn8-devel-ubuntu18.04 AS nvidia
 FROM gcr.io/kaggle-gpu-images/rstats:${BASE_TAG}
